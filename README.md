@@ -19,7 +19,7 @@ Next, I read in the Wikipedia data JSON file using the code:
 #### Transform
 I used Pandas with Python in Jupyter Notebook in order to clean and transform the data. I edited the column names, filtered out TV show data, transformed the movie data using regular expressions, and consolidated the data.
 
-The wiki_movies_df DataFrame from [ETL_clean_wiki_movies.ipynb](https://github.com/stephperillo/Movies-ETL/blob/main/ETL_clean_wiki_movies.ipynb) displays the cleaned data from the Wikipedia JSON file:
+The `wiki_movies_df` DataFrame from [ETL_clean_wiki_movies.ipynb](https://github.com/stephperillo/Movies-ETL/blob/main/ETL_clean_wiki_movies.ipynb) displays the cleaned data from the Wikipedia JSON file:
 
 ![wiki_movies_df.head.png](https://github.com/stephperillo/Movies-ETL/blob/main/Resources/wiki_movies_df.head.png)
 
