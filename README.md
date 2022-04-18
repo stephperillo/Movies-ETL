@@ -17,7 +17,7 @@ Next, I read in the Wikipedia data JSON file using the code:
             wiki_movies_raw = json.load(file)
 
 #### Transform
-I used Pandas with Python in Jupyter Notebook in order to clean and transform the data. I edited the column names, filtered out TV show data, transformed the movie data using regular expressions, and consolidated the data.
+I used Pandas with Python in Jupyter Notebook in order to clean and transform the data. I edited the column names, filtered out TV show data, transformed the remaining movie data using regular expressions. Lastly, I consolidated the data.
 
 The `wiki_movies_df` DataFrame from [ETL_clean_wiki_movies.ipynb](https://github.com/stephperillo/Movies-ETL/blob/main/ETL_clean_wiki_movies.ipynb) displays the cleaned data from the Wikipedia JSON file:
 
@@ -31,7 +31,7 @@ In the [ETL_clean_kaggle_data.ipynb](https://github.com/stephperillo/Movies-ETL/
 
 ![movies_with_ratings_df.png](https://github.com/stephperillo/Movies-ETL/blob/main/Resources/movies_with_ratings_df.head.png)
 
-This image confirms that the movies DataFrame was created successfully:
+This image confirms that the `movies_df` DataFrame was created successfully:
 ![movies_df.head.png](https://github.com/stephperillo/Movies-ETL/blob/main/Resources/movies_df.head.png)
 
 #### Load
@@ -46,6 +46,6 @@ The query for the count of rows in the `ratings` table is shown below:
 
 ![ratings_query.png](https://github.com/stephperillo/Movies-ETL/blob/main/Resources/ratings_query.png)
 
-There are 26,024,289 rows in the `ratings` table! I also included code to print the elapsed time to import each row to the database. 
+There are 26,024,289 rows in the `ratings` table! I also included code to print the elapsed time it takes to import each row to the database. 
 
 These tools and techniques will very useful in future analyses.
