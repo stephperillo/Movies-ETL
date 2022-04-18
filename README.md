@@ -42,8 +42,10 @@ This is the query in the `movies` table to count the rows:
 
 ![movies_query.png](https://github.com/stephperillo/Movies-ETL/blob/main/Resources/movies_query.png)
 
-The query for the count of rows in the `ratings` table:
+The query for the count of rows in the `ratings` table is shown below:
 
 ![ratings_query.png](https://github.com/stephperillo/Movies-ETL/blob/main/Resources/ratings_query.png)
 
-There are 26,024,289 rows in the `ratings` table! I also included code to print the elapsed time to import each row to the database. These tools and techniques will very useful in future analyses.
+There are 26,024,289 rows in the `ratings` table! I also included code to print the elapsed time to import each row to the database. 
+
+These tools and techniques will very useful in future analyses.
